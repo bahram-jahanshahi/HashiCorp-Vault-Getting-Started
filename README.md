@@ -137,7 +137,7 @@ Add this dependency to your ``pom.xml`` file.
 ```
 
 ### Java Code
-**Cautious:** than it's better to put the ``address`` and ``token`` in the environmental variables. **this code is not secret at all!**
+**Cautious:** than it's better to put the ``address`` and ``token`` in the environmental variables. **this code is not secured at all!**
 ```java
 final VaultConfig config = new VaultConfig()
                 .address("http://127.0.0.1:8200")
